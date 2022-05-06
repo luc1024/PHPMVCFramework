@@ -1,0 +1,15 @@
+{
+    "name": "luc/phpmvc-framework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luc Fujitsu",
+            "email": "luc1024@gmail.com"
+        }
+    ],
+    "require": {}
+}
