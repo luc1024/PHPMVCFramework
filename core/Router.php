@@ -31,6 +31,9 @@ class Router
                 echo "404 Not found!!!";
                 exit;
             }
+            if (is_string($callback)){
+                return $this->renderView($callback);
+            }
             echo call_user_func($callback);
         }
 }
